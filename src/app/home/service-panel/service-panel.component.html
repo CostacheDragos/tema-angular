@@ -1,0 +1,8 @@
+<h1 id="title">OUR SERVICES</h1>
+<div id="service-list-container">
+    <div class="service-item" *ngFor="let currentService of availableServices">
+        <h2>{{currentService.name}}</h2>
+        <p class="article-title">{{currentService.articleTitle}}</p>
+        <p class="article-description">{{currentService.description}}</p>
+    </div>
+</div>
