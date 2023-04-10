@@ -1,0 +1,45 @@
+.city-card-container{
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 20px;
+
+    img {
+        width: 100%;
+        height: 150px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .city-data {
+        padding: 10px;
+
+        h2 {
+            color: #8ee260;
+        }
+    
+        .city-description {
+            color: rgb(186, 182, 182);
+            font-size: smaller;
+            height: 60px;
+            overflow: auto;
+        }
+    
+        button {
+            display: block;
+            padding: 5px;
+            margin-right: auto;
+            color: white;
+            font-weight: bold;
+            background-color: #C0FF9D;
+            border-radius: 5px;
+            border: none;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #8fff52;
+            }
+        }
+    }
+}

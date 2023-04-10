@@ -1,0 +1,45 @@
+#container {
+    padding: 30px;
+    background-color: rgb(245, 240, 240);
+}
+
+#title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 2px solid rgb(221, 221, 221);
+    width: 30%;
+    padding: 8px;
+    color: #8ee260;
+}
+
+#page-buttons {
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    
+    button {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        font-weight: bold;
+        margin: 0 5px;
+        
+        &:hover {
+            background-color: rgb(202, 197, 197);
+            border-radius: 10px;
+        }
+    }
+}
+
+#city-list-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}

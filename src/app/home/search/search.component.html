@@ -1,0 +1,7 @@
+<div class="search-container">
+    <p>Search & Book all our destinations</p>
+    <input list="citiesList" type="text" placeholder="Search your city" [(ngModel)]="searchedCityName" (keyup.enter)="onSubmitSearch()">
+    <datalist id="citiesList">
+        <option *ngFor="let city of cities">{{city.name}}</option>
+    </datalist>
+</div>

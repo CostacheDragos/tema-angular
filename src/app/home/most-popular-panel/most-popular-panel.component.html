@@ -1,0 +1,10 @@
+<div id="container">
+    <div id="page-buttons">
+        <button [textContent]="'<'" (click)="onPrevPageClicked()"></button>
+        <button [textContent]="'>'" (click)="onNextPageClicked()"></button>
+    </div>
+    <h1 id="title">MOST POPULAR</h1>
+    <div id="city-list-container">
+        <app-city-card *ngFor="let currentCity of currentPageCities" [city]="currentCity" (visitCityEmitter)="emitVisitCity($event)"></app-city-card>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="city-card-container">
+    <img [src]="city.imgURL">
+    <div class="city-data">
+        <h2>{{city.name}}</h2>
+        <p class="city-description">{{city.description}}</p>
+        <button (click)="emitCity()">VISIT NOW</button>
+    </div>
+</div>

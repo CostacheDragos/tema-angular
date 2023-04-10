@@ -1,0 +1,4 @@
+<app-greeting [selectedCity]="headerCityData"></app-greeting>
+<app-search [cities]="cities" (visitCityEmitter)="visitedCityChanged($event)"></app-search>
+<app-service-panel></app-service-panel>
+<app-most-popular-panel [cities]="cities" (visitCityEmitter)="visitedCityChanged($event)"></app-most-popular-panel>

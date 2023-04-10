@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { DiscoveryPageComponent } from './discovery-page/discovery-page.component';
 
 const routes: Routes = [
   {
     path: "",
     pathMatch: 'full',
     redirectTo: "home",
+  },
+  {
+    path: "discovery",
+    component: DiscoveryPageComponent,
   },
   {
     path: "home",

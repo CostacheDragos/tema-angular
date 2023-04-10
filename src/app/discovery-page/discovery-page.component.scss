@@ -1,0 +1,25 @@
+.city-info-container{
+    width: 60%;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+
+    img {
+        width: 100%;
+    }
+
+    .city-data {
+        padding: 10px;
+
+        h2 {
+            text-align: center;
+            color: #8ee260;
+        }
+    
+        .city-description {
+            color: rgb(186, 182, 182);
+            text-align: center;
+        }
+    }
+}

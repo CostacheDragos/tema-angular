@@ -45,5 +45,10 @@
         font-weight: bold;
         background-color: #C0FF9D;
         border-radius: 12px;
+
+        &:hover {
+            cursor: pointer;
+            background-color: #8fff52;
+        }
     }
 }
